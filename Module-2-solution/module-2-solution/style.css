@@ -41,14 +41,15 @@
         }
     
     
-@media (mid-width: 768px) and (max-width: 991px){
-    .col-med-6, .col-med-12 {
-    float: left;
+
+@media (min-width: 768px) and (max-width: 991px){
+    .col-lg-4 {
+      width: 50%;
+      float: left;
     }
-    .col-med-6 {
-    width: 50%;
-    }
-    .col-med-12 {
-    width: 100%;
-    }
-    }
+    .col-lg-tablet{
+     width: 100%;
+     float: left;
+   }
+  }
+  
