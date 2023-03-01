@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+/*NavBar*/
+nav {
+  height: 6em;
+  display: flex;
+  background-color: rgb(60, 99, 99);
+  align-items: center;
+}
+.logo {
+  height: 100%;
+}
+.navItems {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  list-style: none;
+  padding: 1em;
+}
+.navItems li {
+  color: white;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+}
+.navItems li:hover {
+  background-color: green;
+}
+.mobileNav {
+  display: none;
+  margin-left: auto;
+  padding: 2em;
+  color: rgb(236, 76, 76);
+  cursor: pointer;
+}
+@media screen and (max-width: 720px) {
+  .navItems.expanded {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    top: 6em;
+    width: 100%;
+    list-style: none;
+    padding: 1em;
+    background-color: blue;
+  }
+  .navItems {
+    display: none;
+  }
+  .mobileNav {
+    display: block;
+  }
+}
