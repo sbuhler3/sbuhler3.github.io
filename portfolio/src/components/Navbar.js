@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 
 export default function Navbar() {
@@ -16,9 +17,15 @@ export default function Navbar() {
           onClick={handleClick}
         />
         <ul className={navOpen ? "navItems expanded" : "navItems"}>
-          <li>About me</li>
-          <li>Projects</li>
-          <li>Certifications</li>
+          <li>
+            <Link to="/"> About me</Link>
+          </li>
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="/certifications">Certifications</Link>
+          </li>
           <li>Contact me</li>
         </ul>
       </nav>
