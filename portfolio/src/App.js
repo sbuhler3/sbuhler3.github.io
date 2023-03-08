@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Certification from "./components/Certification";
 import Project from "./components/Project";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="/certifications" element={<Certification />} />
         <Route path="/projects" element={<Project />} />
       </Routes>
-      <div>Home.</div>
+      <Sidebar />
     </div>
   );
 }
