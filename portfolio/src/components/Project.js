@@ -1,5 +1,6 @@
 import React from "react";
+import Animate from "./Animate";
 
 export default function Project() {
-  return <div>Project</div>;
+  return <Animate title="Projects" />;
 }

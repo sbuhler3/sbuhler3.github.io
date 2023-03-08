@@ -1,5 +1,6 @@
 import React from "react";
+import Animate from "./Animate";
 
 export default function About() {
-  return <div>About</div>;
+  return <Animate title="About Me" />;
 }

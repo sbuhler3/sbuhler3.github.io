@@ -1,5 +1,6 @@
 import React from "react";
+import Animate from "./Animate";
 
 export default function Certification() {
-  return <div>Certification</div>;
+  return <Animate title="Certifications" />;
 }
