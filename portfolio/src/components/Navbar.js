@@ -18,15 +18,30 @@ export default function Navbar() {
         />
         <ul className={navOpen ? "navItems expanded" : "navItems"}>
           <li>
-            <Link to="/"> About me</Link>
+            <Link to="/" className="link" onClick={handleClick}>
+              {" "}
+              About me
+            </Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects" className="link" onClick={handleClick}>
+              Projects
+            </Link>
           </li>
           <li>
-            <Link to="/certifications">Certifications</Link>
+            <Link to="/certifications" className="link" onClick={handleClick}>
+              Certifications
+            </Link>
           </li>
-          <li>Contact me</li>
+          <li>
+            <a
+              className="link"
+              href="mailto:buhler.spencer33@gmail.com"
+              onClick={handleClick}
+            >
+              Contact me
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
