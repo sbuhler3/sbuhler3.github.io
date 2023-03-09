@@ -36,7 +36,12 @@ export default function Project() {
         />
         <div className="project_desc">{project.desc}</div>
         {project.url ? (
-          <a className="project_url" href={project.url}>
+          <a
+            className="project_url"
+            href={project.url}
+            target="_blank"
+            rel="noreferrer"
+          >
             Visit Site
           </a>
         ) : null}
