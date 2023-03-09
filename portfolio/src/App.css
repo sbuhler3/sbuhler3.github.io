@@ -242,3 +242,41 @@ nav {
     width: 75vw;
   }
 }
+/* Certification Page*/
+.cert_container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 2em;
+  list-style: none;
+  font-size: 1.5em;
+}
+.cert_icon {
+  margin-right: 0.5em;
+  color: rgb(60, 99, 99);
+}
+.cert_item {
+  color: rgb(60, 99, 99);
+  padding: 0.5em;
+}
+.cert_heading {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 0;
+}
+.cert_item:nth-child(odd) {
+  background-color: rgb(60, 99, 99);
+  color: whitesmoke;
+}
+.cert_item:nth-child(odd) .cert_icon {
+  color: whitesmoke;
+}
+@media screen and (max-width: 950px) {
+  .cert_heading {
+    font-size: 1.2em;
+  }
+  .cert_container {
+    width: 70%;
+  }
+}
