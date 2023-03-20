@@ -2,24 +2,25 @@ import React from "react";
 import Animate from "./Animate";
 import squirtle from "../images/squirtle.png";
 import trivia from "../images/trivia.png";
-import tenzies from "../images/tenzies.png";
+import FitTrack from "../images/Fittrack.png";
 export default function Project() {
   const projList = [
     {
+      title: "FitTrack",
+      img: FitTrack,
+      desc: "Full Stack App written in Reactjs, Nodejs, MySql. Users signs up and app computes the target heart-rates the user should be working out at. Can add, edit, delete, sort strength and cardio exercise logs",
+      url: "https://fit-tracks.com/",
+    },
+    {
       title: "Personal Pokedex",
       img: squirtle,
-      desc: "App written in Django framework. Created for my nephew. Allows you to search for any pokemon #'s 1-905, gives you a description of the pokemon, what type they are, where they can be found in different games, and what moves are strong/weak against them",
+      desc: "Full Stack App written in Django framework. Created for my nephew. Allows you to search for any pokemon #'s 1-905, gives you a description of the pokemon, what type they are, where they can be found in different games, and what moves are strong/weak against them",
       url: "https://sbuhler3.pythonanywhere.com/pokemon/",
     },
     {
       title: "Quiz Game",
       img: trivia,
       desc: "Written using Reactjs. Game randomly populates trivia, you are allowed one guess per question. Once you have answered all questions you can check to see how many you guessed correctly.",
-    },
-    {
-      title: "Tenzies",
-      img: tenzies,
-      desc: "App written using Reactjs. Object of game is to get all dice matching. App tracks state of each individual die until they each match. Allows you to lock a die in place while rolling the 'unlocked' dice.",
     },
   ];
   const showProject = projList.map((project) => {
