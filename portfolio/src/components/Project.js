@@ -8,7 +8,7 @@ export default function Project() {
     {
       title: "FitTrack",
       img: FitTrack,
-      desc: "Full Stack App written in Reactjs, Nodejs, MySql. Users signs up and app computes the target heart-rates the user should be working out at. Can add, edit, delete, sort strength and cardio exercise logs",
+      desc: "Full Stack App written in Reactjs, Nodejs, MySql. The app computes the target heart-rates the user should be working out at. The passwords are hashed for security. The user has a choice of a strength exercise log and a cardio exercise log. Can add, edit, delete, sort both log types.",
       url: "https://fit-tracks.com/",
     },
     {
