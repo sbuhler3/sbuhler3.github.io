@@ -21,6 +21,7 @@ export default function Project() {
       title: "Quiz Game",
       img: trivia,
       desc: "Written using Reactjs. Game randomly populates trivia, you are allowed one guess per question. Once you have answered all questions you can check to see how many you guessed correctly.",
+      url: "https://my-quizzical.netlify.app/",
     },
   ];
   const showProject = projList.map((project) => {
