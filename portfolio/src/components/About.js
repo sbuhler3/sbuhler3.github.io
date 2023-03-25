@@ -10,7 +10,7 @@ export default function About() {
         <img src={spencer} alt="profile" className="picture" />
         <div className="about_text">
           I am a software engineer who is graduating with a B.S. in Software
-          Engineering in June 2023. I have experience in the Full-Stack through
+          Engineering in May 2023. I have experience in the Full-Stack through
           a variety of languages. I am most comfortable with Python, Javascript,
           HTML, CSS, and the React framework. I have experience with Java, C++,
           and Django. <br />

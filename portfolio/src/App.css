@@ -151,13 +151,30 @@ nav {
   }
 }
 @media screen and (max-width: 996px) {
+  .sidebar{
+    flex-direction: row;
+    top: 93%;
+    left: 50%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: .5em;
+  }
+  .sidebar a{
+    justify-content: space-around;
+    align-items: center;
+  }
   .icon {
-    width: 70%;
+    width: auto;
+    height: 3.0em;
+    padding: 1em;
   }
 }
 @media screen and (max-width: 768px) {
-  .icon {
-    width: 100%;
+  .sidebar{
+    top: 90%;
+  }
+  .icon{
+    height: 2.5em;
   }
 }
 /*About me*/
@@ -246,7 +263,10 @@ nav {
 @media screen and (max-width: 996px) {
   .grid {
     width: 85vw;
-    margin: 0;
+    margin: auto;
+  }
+  .proj_container:last-child{
+    margin-bottom: 1em;
   }
 }
 /* Certification Page*/
